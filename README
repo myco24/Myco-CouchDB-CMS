@@ -1,0 +1,41 @@
+/*-------------------------------------------------------+
+| MyCo-CouchDB Content Management System
+| Copyright (C) 2010 Dennis Vorpahl
+| http://mahnjetzt.de/
++--------------------------------------------------------+
+| Filename: README
+| Author: Dennis Vorpahl (MyCo)
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
+
+Wie auch andere Content Management Systeme hat das MyCo CouchDB CMS einige Anforderungen an den Webspace.
+
+Ihr Webspace muss folgendes bereitstellen:
+PHP ab Version 5.2
+Curl muss aktiviert sein
+
+Zudem wird eine CouchDB benötigt, diese kann bei einem beliebigen Hoster sein und muss nicht zwingend in Ihrem Webspacepaket enthalten sein. Kostenlos zum Beispiel bei http://www.couch.io/
+
+Bevor Sie MyCo CouchDB CMS installieren, besuchen Sie Ihr CouchDB Admintool, auch Futon genannt, und legen einen Admin an. CouchDB ist ansonsten von jedem einseh- und veränderbar. Eine Datenbank muss nicht angelegt werden, diese wird von MyCo CouchDB CMS während der Installation angelegt.
+
+Installation:
+Entpacken Sie den gesammten Download und laden Sie Die Ordner und Dateien so wie Sie sind auf Ihren Webspace hoch.
+Folgende Dateirechte müssen gesetzt werden:
+
+config.php 0755
+images 0755
+images/seitenbilder 0755
+
+Nun rufen Sie Ihre Domain it Ihrem Browser auf. Die Installationsroutine wird automatisch gestartet.
+Folgen Sie den Anweisungen und füllen alle Felder aus.
+
+Am Ende der Installation müssen Sie die Dateirechte der config.php wieder auf 0644 zurück setzen.
+
+Nun können Sie sich im Adminbereich einloggen und Ihre Webseite erstellen.
